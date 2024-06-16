@@ -80,9 +80,9 @@
    - [ ] `abort` - Aborts the program
    - [ ] `calloc` - Allocates memory for an array
    - [ ] `exit` - Terminates the program
-   - [ ] `free` - Frees allocated memory
+   - [x] `free` - Frees allocated memory
    - [ ] `getenv` - Gets the value of an environment variable
-   - [ ] `malloc` - Allocates memory
+   - [x] `malloc` - Allocates memory
    - [ ] `realloc` - Changes the size of a previously allocated memory block
    - [ ] `system` - Executes a command
    - [ ] `abs` - Computes the absolute value of an integer
