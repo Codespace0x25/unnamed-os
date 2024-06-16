@@ -2,7 +2,7 @@
 #include <display.h>
 #include <memory>
 #include "cstddef"
-
+#include <stdio.h>
 
 uint8_t startUser()
 {
