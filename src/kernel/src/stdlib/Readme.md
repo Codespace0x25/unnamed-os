@@ -69,3 +69,37 @@
     - [ ] Thread management - Creates and manages threads
     - [ ] Mutexes - Controls access to shared resources
     - [ ] Condition variables - Coordinates threads' execution
+- [ ] **Standard Library (stdlib.h):**
+   - [ ] `EXIT_FAILURE` - Exit status indicating failure
+   - [ ] `EXIT_SUCCESS` - Exit status indicating success
+   - [ ] `RAND_MAX` - Maximum value returned by `rand` function
+   - [ ] `atof` - Converts a string to a floating-point number
+   - [ ] `atoi` - Converts a string to an integer
+   - [ ] `atol` - Converts a string to a long integer
+   - [ ] `atoll` - Converts a string to a long long integer
+   - [ ] `abort` - Aborts the program
+   - [ ] `calloc` - Allocates memory for an array
+   - [ ] `exit` - Terminates the program
+   - [ ] `free` - Frees allocated memory
+   - [ ] `getenv` - Gets the value of an environment variable
+   - [ ] `malloc` - Allocates memory
+   - [ ] `realloc` - Changes the size of a previously allocated memory block
+   - [ ] `system` - Executes a command
+   - [ ] `abs` - Computes the absolute value of an integer
+   - [ ] `labs` - Computes the absolute value of a long integer
+   - [ ] `llabs` - Computes the absolute value of a long long integer
+   - [ ] `div` - Computes quotient and remainder of integer division
+   - [ ] `ldiv` - Computes quotient and remainder of long integer division
+   - [ ] `lldiv` - Computes quotient and remainder of long long integer division
+   - [ ] `atexit` - Registers a function to be called at program termination
+   - [ ] `getenv_s` - Gets the value of an environment variable in a safer way
+   - [ ] `quick_exit` - Terminates the program without cleanup
+   - [ ] `at_quick_exit` - Registers a function to be called at quick program termination
+   - [ ] `mblen` - Determines the length of a multibyte character
+   - [ ] `mbtowc` - Converts a multibyte character to a wide character
+   - [ ] `wctomb` - Converts a wide character to a multibyte character
+   - [ ] `mbstowcs` - Converts a multibyte string to a wide string
+   - [ ] `wcstombs` - Converts a wide string to a multibyte string
+   - [ ] `rand` - Generates a pseudo-random number
+   - [ ] `srand` - Seeds the pseudo-random number generator
+
