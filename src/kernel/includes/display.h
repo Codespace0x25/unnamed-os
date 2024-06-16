@@ -21,3 +21,4 @@ typedef struct color {
 color_t RGB(uint8_t r, uint8_t g, uint8_t b, uint8_t a);
 void draw_pixel(uint16_t x, uint16_t y, color_t color);
 void fill_frame_buffer(color_t color);
+void setBackground(uint8_t r, uint8_t g, uint8_t b);
