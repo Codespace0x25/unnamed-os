@@ -45,3 +45,12 @@ void fill_frame_buffer(color_t color)
     }
   }
 }
+void setBackground(uint8_t r, uint8_t g, uint8_t b){
+// i made this as i dont want to put the below code every time tk rerinder
+// btw i stole jt from the kernel and there is alfa
+  auto* test = (color_t*)malloc(sizeof(color_t));
+  test = RGB(r, h, b, 255);
+
+  fill_frame_buffer(*test);
+  free(test);
+}
